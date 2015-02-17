@@ -5,6 +5,7 @@ public class PlainPizza implements Pizza{
 		
 		return "Thin dough, ";
 		
+		
 	}
 	
 	public double getCost() {
