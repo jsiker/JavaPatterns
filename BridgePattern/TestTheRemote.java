@@ -5,7 +5,7 @@ public class TestTheRemote {
 		
 		RemoteButton theTV = new TVRemoteMute(new TVDevice(1, 200));
 		
-		RemoteButton theTV2 = new TVRemotePause(new TVDevice(1, 200));
+		RemoteButton theTV2 = new TVRemotePause(new TVDevice(4, 200));
 
 		RemoteButton theDVD = new DVDTVRemote(new DVDDevice(1, 14));
 		
@@ -19,7 +19,11 @@ public class TestTheRemote {
 		
 		theTV2.buttonFivePressed();
 		theTV2.buttonSixPressed();
+		theTV2.buttonSixPressed();
+		theTV2.buttonSixPressed();
+		theTV2.buttonSixPressed();
 		theTV2.buttonNinePressed();
+		theTV2.deviceFeedback();
 		
 		System.out.println("\nTest DVD");
 		
