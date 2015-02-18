@@ -26,8 +26,8 @@ public class DiscJockey {
 	public void showTheSongs(){
 		
 		// B/c the SongInfo Objects are stored in different collections,
-		// e/t must be handled on an individual basis. This is NO GOOD,
-		// but good practice using different data types.
+		// e/t must be handled on an individual basis. This is NO GOOD, BAD, TERRIBLE
+		// but good practice using different collection types.
 		
 		ArrayList arrayList70sSongs = songsOfThe70s.getBestSongs();
 		

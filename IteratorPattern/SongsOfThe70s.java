@@ -26,7 +26,7 @@ public class SongsOfThe70s implements SongIterator{
 		
 	}
 	
-	// Return ArrayList filled with SongInfo Objects
+	// Return ArrayList filled with SongInfo Objects, not needed with iterator below
 	
 	public ArrayList<SongInfo> getBestSongs() {
 		

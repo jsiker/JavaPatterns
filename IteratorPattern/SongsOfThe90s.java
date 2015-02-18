@@ -30,7 +30,7 @@ public class SongsOfThe90s implements SongIterator{
 		
 	}
 	
-	// Return ArrayList filled with SongInfo Objects
+	// Return ArrayList filled with SongInfo Objects, not needed with iterator below
 	
 	public Hashtable<Integer, SongInfo> getBestSongs() {
 		

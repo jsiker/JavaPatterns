@@ -31,7 +31,7 @@ public class SongsOfThe80s implements SongIterator{
 		
 	}
 	
-	// Return ArrayList filled with SongInfo Objects
+	// Return ArrayList filled with SongInfo Objects, not needed w/ iterator below
 	
 	public SongInfo[] getBestSongs() {
 		
