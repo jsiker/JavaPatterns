@@ -37,7 +37,7 @@ public class SongListGenerator {
 		hipHopMusic.add(new Song("i", "Kendrick Lamar", 2014));
 		hipHopMusic.add(new Song("Juice", "Chance the Rapper", 2014));
 		
-		DiscJockey crazyEddie = new DiscJockey(everySong);
+		DJ crazyEddie = new DJ(everySong);
 		
 		crazyEddie.getSongList();
 		

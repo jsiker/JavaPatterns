@@ -5,13 +5,13 @@ public class Radio implements ElectronicDevice{
 	
 	public void on() {
 		
-		System.out.println("Radio is on");
+		System.out.println("Radio is on.");
 	
 	}
 	
 	public void off() {
 		
-		System.out.println("Radio is off");
+		System.out.println("Radio is off.");
 		
 	}
 	

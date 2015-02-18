@@ -6,7 +6,7 @@
  * Through composition we can add new functionality
  * by writing new code rather than changing current code.
  */
-public class ThreeCheesePizza extends Pizza{
+public class ThreeCheesePizza implements Pizza{
 	
 	public void setDescription(String newDescription) {
 		
